@@ -5,8 +5,8 @@
 # Get input and convert to correct data type for testScore and classRank
 
 # Test using admission requirements and print Accept or Reject
-testScore = (int(input('Enter test score: '))
-classRank = (int(input('Enter class rank: '))
+testScore = int(input('Enter test score: '))
+classRank = int(input('Enter class rank: '))
 
 if testScore >= 90:
   if classRank >= 25:
